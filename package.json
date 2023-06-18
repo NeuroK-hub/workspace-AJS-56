@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  },
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeuroK-hub/workspace-AJS-56.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "NeuroK-hub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeuroK-hub/workspace-AJS-56/issues"
+  },
+  "homepage": "https://github.com/NeuroK-hub/workspace-AJS-56#readme"
+}
